@@ -17,10 +17,9 @@ app.get('/*', function(req, res) {
 });
 
 // Start the app by listening on the default Heroku port    
+<<<<<<< HEAD
 app.listen(process.env.PORT || 8080);
 */
-
-
 
 app.use(express.static('./dist/spa'));
 
